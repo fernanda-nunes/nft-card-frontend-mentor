@@ -34,7 +34,7 @@ Preview com elementos interativos: <br>
 ### Links 
 <ul>
 <li><a href="https://github.com/fernanda-nunes/nft-card-frontend-mentor" target="_blank">Repositórios</a></li>
-<li><a href="#" target="_blank">Site ao vivo</a></li>
+<li><a href="https://fernanda-nunes.github.io/nft-card-frontend-mentor/" target="_blank">Site ao vivo</a></li>
 </ul>
 
 ## O que eu aprendi 
