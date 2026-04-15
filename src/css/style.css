@@ -1,9 +1,4 @@
-body{
-    background-color: var(--neutral-dark);
-    font-family: 'Outfit', sans-serif;
-}
-
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,24 +6,24 @@ main{
     padding: 0 25px;
 }
 
-main .nft-card{
+ .nft-card{
     max-width: 350px;
     background-color: var(--neutral-medium);
     border-radius: 15px;
     padding: 25px;
 }
 
-main .nft-card .image-link{
+ .nft-card .image-link{
     position: relative;
     display: flex;
 }
 
-main .nft-card .image-link .image{
+ .nft-card .image-link .image{
     width: 100%;
     border-radius: 7px;    
 }
 
-main .nft-card .image-link::before{    
+ .nft-card .image-link::before{    
     content: '';
     background-color: cyan;
     width: 100%;
@@ -38,7 +33,7 @@ main .nft-card .image-link::before{
     transition: 0.3s ease-in-out;
 }
 
-main .nft-card .image-link::after{
+ .nft-card .image-link::after{
     content: '';
     background: url(../images/icon-view.svg) no-repeat center;
     position: absolute;
@@ -48,25 +43,25 @@ main .nft-card .image-link::after{
     transition: 0.3s ease-in-out;
 }
 
-main .nft-card .image-link:hover::before {    
+ .nft-card .image-link:hover::before {    
     opacity: 0.4;
 }
 
-main .nft-card .image-link:hover::after{
+ .nft-card .image-link:hover::after{
     opacity: 1;
 }
 
-main .nft-card .title-link .title{
+ .nft-card .title-link .title{
     font-size: 22px;
     color: #ffffff;
     margin: 25px 0 20px;
 }
 
-main .nft-card .title-link .title:hover{
+ .nft-card .title-link .title:hover{
     color: var(--primary-medium);
 }
 
-main .nft-card .about{
+ .nft-card .about{
     color: var(--primary-soft);
     font-size: 18px;
     font-weight: 300;
@@ -74,18 +69,18 @@ main .nft-card .about{
     margin-bottom: 23px;
 }
 
-main .nft-card .info{
+ .nft-card .info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 23px;
 }
 
-main .nft-card .info .price{
+ .nft-card .info .price{
     color: var(--primary-medium);
     display: flex;
 }
 
-main .nft-card .info .price::before{
+ .nft-card .info .price::before{
     content: '';
     background: url(../images/icon-ethereum.svg) no-repeat center;
     width: 11px;
@@ -94,12 +89,12 @@ main .nft-card .info .price::before{
     margin-right: 5px;
 }
 
-main .nft-card .info .days-left{
+ .nft-card .info .days-left{
     color: var(--primary-soft);
     display: flex;
 }
 
-main .nft-card .info .days-left::before{
+ .nft-card .info .days-left::before{
     content: '';
     background: url(../images/icon-clock.svg) no-repeat center;
     width: 15px;    
@@ -107,28 +102,28 @@ main .nft-card .info .days-left::before{
     margin-right: 5px;
 }
 
-main .nft-card .creator{
+ .nft-card .creator{
     display: flex;
     align-items: center;   
     border-top: 1px solid var(--neutral-soft); 
     padding-top: 15px;
 }
 
-main .nft-card .creator .avatar{
+ .nft-card .creator .avatar{
     max-width: 35px;
     border: 1px solid white;
     border-radius: 50%;
     margin-right: 15px;
 }
 
-main .nft-card .creator .text{
+ .nft-card .creator .text{
     color: var(--primary-soft);
 }
 
-main .nft-card .creator .text .name{
+ .nft-card .creator .text .name{
     color: #ffffff;
 }
 
-main .nft-card .creator .text .name:hover{
+ .nft-card .creator .text .name:hover{
     color: var(--primary-medium);
 }
