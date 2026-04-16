@@ -1,15 +1,15 @@
 # NFT preview card component
 
-<p><b>Esta é uma solução para o exercíco do módulo de HTML e CSS , do curso DevQuest</b></p>
+<p><b>Essa é a solução do exercício do módulo de HTML e CSS intermediário, proposto pelo curso DevQuest.</b></p>
 
 ## Visão Geral 
 
 ###  Projeto 
-<b>O objetivo é desenvolver uma página de cartão com componentes.
+<b>O objetivo é desenvolver uma página com estrutura de um cartão e seus componentes.
 
 ###  Desafio
 
-<b>O desafio consiste é desenvolver uma página de cartão com componentes, partir dos designs e funcionalidades fornecidas. 
+<b>O desafio consiste em desenvolver uma página com estrutura de um cartão e seus componentes, partir dos designs e funcionalidades fornecidas. 
 
 ### Funcionalidades 
 <ul>
@@ -33,8 +33,8 @@ Preview com elementos interativos: <br>
 
 ### Links 
 <ul>
-<li><a href="https://github.com/fernanda-nunes/nft-card-frontend-mentor" target="_blank">Repositórios</a></li>
-<li><a href="https://fernanda-nunes.github.io/nft-card-frontend-mentor/" target="_blank">Site ao vivo</a></li>
+<li><a href="https://github.com/fernanda-nunes/nft-preview-card-component/" target="_blank">Repositórios</a></li>
+<li><a href="https://fernanda-nunes.github.io/nft-preview-card-component/" target="_blank">Site ao vivo</a></li>
 </ul>
 
 ## O que eu aprendi 
